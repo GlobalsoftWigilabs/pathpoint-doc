@@ -715,20 +715,16 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -757,13 +753,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -800,13 +793,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -1569,20 +1559,16 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -1611,13 +1597,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -1654,13 +1637,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -2423,20 +2403,16 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -2465,13 +2441,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -2508,13 +2481,10 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -3323,20 +3293,16 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -3365,13 +3331,10 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -3408,13 +3371,10 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -4177,20 +4137,16 @@ exports[`<MainContainer/> Values stages 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -4419,13 +4375,10 @@ exports[`<MainContainer/> Values stages 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -4508,13 +4461,10 @@ exports[`<MainContainer/> Values stages 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -5332,20 +5282,16 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
     >
       Stages
       <div
+        className="containerGearWheel"
         onClick={[Function]}
-        style={
-          Object {
-            "cursor": "pointer",
-            "marginLeft": "15px",
-          }
-        }
+        onMouseEnter={[Function]}
+        onMouseLeave={[Function]}
       >
         <img
           height="16"
           src={Object {}}
           style={
             Object {
-              "marginBottom": "2px",
               "marginRight": "5px",
             }
           }
@@ -5374,13 +5320,10 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
       >
         Steps
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"
@@ -5417,13 +5360,10 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
       >
         TouchPoints
         <div
+          className="containerGearWheel"
           onClick={[Function]}
-          style={
-            Object {
-              "cursor": "pointer",
-              "marginLeft": "15px",
-            }
-          }
+          onMouseEnter={[Function]}
+          onMouseLeave={[Function]}
         >
           <img
             height="16"

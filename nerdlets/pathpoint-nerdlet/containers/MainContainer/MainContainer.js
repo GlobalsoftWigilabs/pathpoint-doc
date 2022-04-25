@@ -165,7 +165,10 @@ export default class MainContainer extends React.Component {
       sendingLogsEnableDisable: true,
       configurationOptionSelected: 'download',
       fileName: null,
-      fileNote: null
+      fileNote: null,
+      showMessageInformationStage: false,
+      showMessageInformationStep: false,
+      showMessageInformationTouchpoint: false
     };
   }
 
@@ -1786,6 +1789,14 @@ export default class MainContainer extends React.Component {
     });
   };
 
+  showInformation = (title, value) => {
+    if (title === 'stage')
+      this.setState({ showMessageInformationStage: value });
+    if (title === 'step') this.setState({ showMessageInformationStep: value });
+    if (title === 'touchpoint')
+      this.setState({ showMessageInformationTouchpoint: value });
+  };
+
   RestoreJSONFromHistoric = () => {
     const payload = this.state.JSONModal.historic[
       this.state.currentHistoricSelected
@@ -1861,7 +1872,10 @@ export default class MainContainer extends React.Component {
       credentials,
       configurationOptionSelected,
       fileName,
-      fileNote
+      fileNote,
+      showMessageInformationStage,
+      showMessageInformationStep,
+      showMessageInformationTouchpoint
     } = this.state;
     if (this.state.waiting) {
       return (
@@ -2242,14 +2256,19 @@ export default class MainContainer extends React.Component {
               )}
               {this.state.guiEditor && (
                 <div
-                  style={{ marginLeft: '15px', cursor: 'pointer' }}
+                  className="containerGearWheel"
                   onClick={() => this.OpenGUIEditor(12)}
+                  onMouseEnter={() => this.showInformation('stage', true)}
+                  onMouseLeave={() => this.showInformation('stage', false)}
                 >
                   <img
                     src={setup_icon}
                     height="16"
-                    style={{ marginRight: '5px', marginBottom: '2px' }}
+                    style={{ marginRight: '5px' }}
                   />
+                  {showMessageInformationStage === true ? (
+                    <div className="panelInformation">Stages Editor</div>
+                  ) : null}
                 </div>
               )}
             </div>
@@ -2285,14 +2304,19 @@ export default class MainContainer extends React.Component {
                 )}
                 {this.state.guiEditor && (
                   <div
+                    className="containerGearWheel"
                     onClick={() => this.OpenGUIEditor(13)}
-                    style={{ marginLeft: '15px', cursor: 'pointer' }}
+                    onMouseEnter={() => this.showInformation('step', true)}
+                    onMouseLeave={() => this.showInformation('step', false)}
                   >
                     <img
                       src={setup_icon}
                       height="16"
                       style={{ marginRight: '5px', marginBottom: '2px' }}
                     />
+                    {showMessageInformationStep === true ? (
+                      <div className="panelInformation">Steps Editor</div>
+                    ) : null}
                   </div>
                 )}
               </div>
@@ -2383,14 +2407,23 @@ export default class MainContainer extends React.Component {
                 )}
                 {this.state.guiEditor && (
                   <div
-                    style={{ marginLeft: '15px', cursor: 'pointer' }}
+                    className="containerGearWheel"
                     onClick={() => this.OpenGUIEditor(14)}
+                    onMouseEnter={() =>
+                      this.showInformation('touchpoint', true)
+                    }
+                    onMouseLeave={() =>
+                      this.showInformation('touchpoint', false)
+                    }
                   >
                     <img
                       src={setup_icon}
                       height="16"
                       style={{ marginRight: '5px', marginBottom: '2px' }}
                     />
+                    {showMessageInformationTouchpoint === true ? (
+                      <div className="panelInformation">Touchpoints Editor</div>
+                    ) : null}
                   </div>
                 )}
                 <div className="touchPointCheckbox">
