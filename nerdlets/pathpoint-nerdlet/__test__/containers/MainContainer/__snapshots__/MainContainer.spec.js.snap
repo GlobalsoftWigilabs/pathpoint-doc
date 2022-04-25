@@ -34,6 +34,27 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
             src={Object {}}
           />
         </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
+          />
+        </div>
       </div>
       <span
         className="budgetLoss"
@@ -693,20 +714,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -729,20 +756,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -766,20 +799,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 1 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >
@@ -849,6 +888,27 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
             src={Object {}}
           />
         </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
+          />
+        </div>
       </div>
       <span
         className="budgetLoss"
@@ -1508,20 +1568,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -1544,20 +1610,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -1581,20 +1653,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 2 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >
@@ -1664,6 +1742,27 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
             src={Object {}}
           />
         </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
+          />
+        </div>
       </div>
       <span
         className="budgetLoss"
@@ -2323,20 +2422,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -2359,20 +2464,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -2396,20 +2507,26 @@ exports[`<MainContainer/> Values MenuRightDefault with value 3 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >
@@ -2523,6 +2640,27 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
         >
           <img
             src={Object {}}
+          />
+        </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
         </div>
       </div>
@@ -3184,20 +3322,26 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -3220,20 +3364,26 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -3257,20 +3407,26 @@ exports[`<MainContainer/> Values left panel with true value 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >
@@ -3338,6 +3494,27 @@ exports[`<MainContainer/> Values stages 1`] = `
         >
           <img
             src={Object {}}
+          />
+        </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
         </div>
       </div>
@@ -3999,20 +4176,26 @@ exports[`<MainContainer/> Values stages 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -4235,20 +4418,26 @@ exports[`<MainContainer/> Values stages 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -4318,20 +4507,26 @@ exports[`<MainContainer/> Values stages 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >
@@ -4454,6 +4649,27 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
         >
           <img
             src={Object {}}
+          />
+        </div>
+        <div
+          onClick={[Function]}
+          style={
+            Object {
+              "cursor": "pointer",
+              "marginLeft": "5px",
+              "marginTop": "20px",
+            }
+          }
+        >
+          <img
+            height="16"
+            src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
         </div>
       </div>
@@ -5115,20 +5331,26 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
       className="title"
     >
       Stages
-      <a
-        href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-        rel="noreferrer"
+      <div
+        onClick={[Function]}
         style={
           Object {
-            "marginLeft": "10px",
+            "cursor": "pointer",
+            "marginLeft": "15px",
           }
         }
-        target="_blank"
       >
         <img
+          height="16"
           src={Object {}}
+          style={
+            Object {
+              "marginBottom": "2px",
+              "marginRight": "5px",
+            }
+          }
         />
-      </a>
+      </div>
     </div>
     <div
       style={
@@ -5151,20 +5373,26 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
         className="mainContainerSteps__title"
       >
         Steps
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
       </div>
     </div>
     <div
@@ -5188,20 +5416,26 @@ exports[`<MainContainer/> Values waiting in false 1`] = `
         className="mainContainerTouchPoints__title"
       >
         TouchPoints
-        <a
-          href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Touchpoints#touchpoint-guide"
-          rel="noreferrer"
+        <div
+          onClick={[Function]}
           style={
             Object {
-              "marginLeft": "10px",
+              "cursor": "pointer",
+              "marginLeft": "15px",
             }
           }
-          target="_blank"
         >
           <img
+            height="16"
             src={Object {}}
+            style={
+              Object {
+                "marginBottom": "2px",
+                "marginRight": "5px",
+              }
+            }
           />
-        </a>
+        </div>
         <div
           className="touchPointCheckbox"
         >

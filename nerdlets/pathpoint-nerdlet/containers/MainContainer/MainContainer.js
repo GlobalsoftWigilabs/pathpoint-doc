@@ -61,13 +61,14 @@ export default class MainContainer extends React.Component {
     this.InterfaceEditor = null;
     this.InterfaceMigration = null;
     this.state = {
+      accountName: '',
       username: '',
+      guiEditor: true,
       jsonMetaData: {
         description: '',
         note: ''
       },
       stagesInterface: null,
-      guiEditor: false,
       currentHistoricSelected: null,
       updating: false,
       queryModalShowing: false,
@@ -78,7 +79,6 @@ export default class MainContainer extends React.Component {
         view: 0,
         historic: []
       },
-      accountName: '',
       credentials: {
         accountId: null,
         ingestLicense: null,
@@ -784,6 +784,9 @@ export default class MainContainer extends React.Component {
 
   updateTouchpointOnOff = touchpoint => {
     if (!this.state.iconCanaryStatus) {
+      this.setState({
+        stagesInterface: null
+      });
       this.updateTouchpointStageOnOff(touchpoint);
       this.DataManager.UpdateTouchpointOnOff(touchpoint, true);
     }
@@ -1133,7 +1136,11 @@ export default class MainContainer extends React.Component {
       this.state.stageNameSelected.touchpoint,
       this.state.stageNameSelected.datos
     );
-    this.setState({ updating: false, updateBackgroundScript: true });
+    this.setState({
+      updating: false,
+      updateBackgroundScript: true,
+      stagesInterface: null
+    });
     this._onClose();
   };
 
@@ -1161,7 +1168,7 @@ export default class MainContainer extends React.Component {
       this.state.stageNameSelected.touchpoint,
       datos
     );
-    this.setState({ updateBackgroundScript: true });
+    this.setState({ updateBackgroundScript: true, stagesInterface: null });
     this._onClose();
   };
 
@@ -2268,7 +2275,7 @@ export default class MainContainer extends React.Component {
                 Steps
                 {!this.state.guiEditor && (
                   <a
-                    href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Stages#stages-guide"
+                    href="https://github.com/newrelic/nr1-pathpoint/tree/main/docs/user_manual/Pathpoint-Steps#steps-guide"
                     style={{ marginLeft: '10px' }}
                     target="_blank"
                     rel="noreferrer"
