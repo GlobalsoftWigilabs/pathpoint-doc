@@ -1,10 +1,6 @@
    ![cambiar](screenshots/pathpoint_logo.png)           
            
-                   
-
-
 New Relic Pathpoint is an enterprise platform tracker that models system health in relation to actual user-impacting the different business stages, and on this documentation you will learn the different concepts of a Pathpoint,  as well as how to interact with the Pathpoint configuration, like for example how to tweak the different Touchpoints of a Pathpoint, to better visualize the data you are most interested in tracking.
-
 
  # <a id="Index"></a>Main Index ###
  
@@ -20,7 +16,6 @@ New Relic Pathpoint is an enterprise platform tracker that models system health 
    * ## [JSON Configuration File](#JSON_Configuration_File)
 
      
-
         * [Setting up KPI queries](#Setting_up_KPI_queries)
       * [Setting up Stages & Steps](#Setting_up_Stages_Steps)
 
@@ -1035,5 +1030,5 @@ Return to top of [Index](#Index)
 
 
 
-
+ 
 
