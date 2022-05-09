@@ -1,4 +1,4 @@
-   ![cambiar](screenshots/pathpoint_logo.png)           
+   ![cambiar](screenshots/logo.png)           
            
 New Relic Pathpoint is an enterprise platform tracker that models system health in relation to actual user-impacting the different business stages, and on this documentation you will learn the different concepts of a Pathpoint,  as well as how to interact with the Pathpoint configuration, like for example how to tweak the different Touchpoints of a Pathpoint, to better visualize the data you are most interested in tracking.
 
@@ -217,7 +217,7 @@ Once you are given the JSON configuration file, you can Upload it to your Pathpo
 
 ![image](screenshots/file_location.png)
 
-4 Next, locate the JSOn configuration file you want to use to update your Pathpoint and click on "Open"
+4 Next, locate the JSON configuration file you want to use to update your Pathpoint and click on "Open"
 
 ![image](screenshots/front_pathpoint.png)
 
@@ -1029,6 +1029,4 @@ Return to top of [Index](#Index)
 
 
 
-
- 
 
