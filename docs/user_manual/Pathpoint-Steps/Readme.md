@@ -3,7 +3,7 @@
 
 # Steps Guide
 
-![Image](screenshots/steps.png)
+![Image](screenshots/Steps.png)
 
 # Introduction
 
@@ -16,7 +16,7 @@ Steps represent the various actions/events occurring throughout the stage. They 
 * Transition Steps 
 * Closing Steps 
 
-![Image](screenshots/steps2.png)
+![Image](screenshots/Steps2.png)
 
 
 In this example, you can see five Stages, and under each Stage, rows of Steps, showing you the 3 different types of Steps, which can be easily identified by their label, for instance: “Login” (Opening Step), “Pay Calculation” (Transitional Step), and “Delivered” (Closing Step).
@@ -27,7 +27,7 @@ Levels establish order flow and sequence for steps.
 
 Pathpoint allows for up to 7 Steps per level and 7 Levels per Stage.
 
-![Image](screenshots/steps3.png)
+![Image](screenshots/Steps3.png)
 
 ## Steps
 
@@ -37,7 +37,7 @@ Steps can represent various functions in the flow. Places to start, mandatory ar
 
 Opening steps can represent Home/Landing pages, Welcome Mats, or even loading screens. They are points of entry that are found throughout your sites, mobile apps, and enterprise tools.
 
-![Image](screenshots/steps4.png)
+![Image](screenshots/Steps4.png)
 
 In this example the first line of Steps, under the “Browse” Stage, denotes the beginning steps when someone starts the process of thinking of buying something online, so the 3 steps in the first row of Steps are: “Web”, “Mobile Web”, and “App”, meaning someone needs an internet connection, a Smart device, and an App to start the purchase.
 
@@ -45,13 +45,13 @@ In this example the first line of Steps, under the “Browse” Stage, denotes t
 
 Between the Opening and Closing steps, we find the transition steps. These steps are used to bridge the actions, options, and functional parts between each Level.
 
-![Image](screenshots/steps5.png)
+![Image](screenshots/Steps5.png)
 
 ## Closing Steps 
 
 The stage level end goal or result is the closing step. Signup is completed, a form submitted, an action is confirmed, or a product has been shipped, these are all examples of closing steps. 
 
-![Image](screenshots/steps6.png)
+![Image](screenshots/Steps6.png)
 
 ## Flow
 
@@ -59,17 +59,17 @@ The stage level end goal or result is the closing step. Signup is completed, a f
 
 When stages consist of 1 step per level, we call this a uni-flow. Every step is mandatory and must occur one after the other. 
 
-![Image](screenshots/steps7.png)
+![Image](screenshots/Steps7.png)
 
 # Multi-Flow
 
 When multiple steps are found within singular Levels, a Multi-Flow stage is created.
 
-![Image](screenshots/steps8.png)
+![Image](screenshots/Steps8.png)
 
 We describe these multiple steps as Parallel Steps.  They can represent options, actions, or states that can happen in parallel. These steps are usually viewed from left to right, to establish popularity and priority.
 
-![Image](screenshots/steps9.png)
+![Image](screenshots/Steps9.png)
 
 # Status
 
@@ -77,20 +77,20 @@ We describe these multiple steps as Parallel Steps.  They can represent options,
 
 When a Touchpoint experiences an error or performance issue, every Step it is mapped to, will be highlighted with a red border. This border disappears when the issue is resolved.
 
-![Image](screenshots/steps10.png)
+![Image](screenshots/Steps10.png)
 
 # Stage Health 
 
 The Green, Yellow or Red light to the left of the STAGE name represents Stage Health. The light changes based on the combined health status of every step.  
 
-![Image](screenshots/steps11.png)
+![Image](screenshots/Steps11.png)
 
 ## Congestion
 
 When a Step exceeds a predefined threshold, it contributes to the overall congestion of the Stage. This is represented by the amount of blue within the Stage Arrow:
 
-![Image](screenshots/steps12.png)
+![Image](screenshots/Steps12.png)
 
 By clicking on the arrow, Pathpoint will highlight the step that is creating most of the congestion:
 
-![Image](screenshots/steps13.png)
+![Image](screenshots/Steps13.png)
