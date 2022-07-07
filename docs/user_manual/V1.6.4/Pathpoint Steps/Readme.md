@@ -26,7 +26,7 @@ Return to top of [Index](#Index)
 ## <a id="Steps_order_of_steps"></a>How to change the order level of a line of Steps ###
 This is something that before this version of Pathpoint, 1.6.4, could only be done using the JSON configuration file, now the same thing can be accomplished with a few clicks of the mouse.
  
-![image](screenshots/Steps3.png)
+![image](screenshots/steps3.png)
 
 This is the way to work with the configuration of the Steps, to change the level # of a line of Steps: 
  

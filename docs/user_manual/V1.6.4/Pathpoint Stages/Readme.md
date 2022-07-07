@@ -22,7 +22,7 @@ Version 1.6.4
 To login to your Pathpoint, open your web browser and type this URL; https://login.newrelic.com/login  in its address bar, and at the login prompt type: your username, click on Next, next type your password, and click on “Log in”.
 
 
-![image](screenshots/Login.png)
+![image](screenshots/login.png)
 
 Now, you must find the Pathpoint App the following way:
 
